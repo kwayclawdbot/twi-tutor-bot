@@ -1,0 +1,495 @@
+{
+  "curriculum": {
+    "title": "Twi Language Master: From Beginner to Confident Speaker",
+    "description": "A comprehensive, culturally-rich journey into the Akan (Twi) language",
+    "version": "1.0",
+    "categories": [
+      {
+        "slug": "foundations",
+        "name": "Foundations",
+        "name_twi": "Nhyehyɛe",
+        "description": "Essential basics for building your Twi foundation",
+        "description_twi": "Nneɛma a ɛyɛ pɛ a wosɛw wɔn ase",
+        "icon": "🏗️",
+        "lessons": [
+          {
+            "slug": "welcome-introduction",
+            "name": "Welcome & Introduction",
+            "name_twi": "Akwaaba ne Nkyerɛkyerɛ",
+            "difficulty": "beginner",
+            "estimated_minutes": 10,
+            "content": {
+              "greeting": {
+                "twi": "Akwaaba! Me din de Twi Tutor. Wo ho te sɛn?",
+                "english": "Welcome! My name is Twi Tutor. How are you?"
+              },
+              "introduction": {
+                "twi": "Mɛkyerɛkyerɛ wo Twi. Yɛbɛka fɛfɛɛfɛ. Yɛbɛtɔn nkyerɛase. Yɛbɛtew abubuasɛm.",
+                "english": "I will teach you Twi. We will speak beautifully. We will translate meanings. We will tell stories."
+              }
+            },
+            "vocabulary": [
+              {"word": "Akwaaba", "meaning": "Welcome", "pronunciation": "ak-WA-ba"},
+              {"word": "Wo ho te sɛn?", "meaning": "How are you?", "pronunciation": "wo-ho-te-SEN"},
+              {"word": "Me din de...", "meaning": "My name is...", "pronunciation": "me-din-deh"},
+              {"word": "Yɛ", "meaning": "Yes/Good", "pronunciation": "yeh"},
+              {"word": "Daabi", "meaning": "No", "pronunciation": "DAH-bee"}
+            ],
+            "cultural_notes": "In Ghana, greetings are essential. Never rush into a conversation without proper greetings. It shows respect and builds relationships."
+          },
+          {
+            "slug": "greetings",
+            "name": "Daily Greetings",
+            "name_twi": "Mpaebo",
+            "difficulty": "beginner",
+            "estimated_minutes": 15,
+            "content": {
+              "overview": {
+                "twi": "Mpaebo yɛ nneɛma titiriw wɔ Ghana. Yɛma akyɛde mpaebo bere a yɛnya no.",
+                "english": "Greetings are very important in Ghana. We give appropriate greetings for the time."
+              }
+            },
+            "vocabulary": [
+              {"word": "Maakye", "meaning": "Good morning", "pronunciation": "MAH-kyeh"},
+              {"word": "Maaha", "meaning": "Good afternoon", "pronunciation": "MAH-ha"},
+              {"word": "Maadwo", "meaning": "Good evening", "pronunciation": "MAH-dwoh"},
+              {"word": "Da yie", "meaning": "Good night/Sleep well", "pronunciation": "dah YEH"},
+              {"word": "Me ho yɛ", "meaning": "I'm fine", "pronunciation": "meh-ho-yeh"},
+              {"word": "Yɛ ma wo akye", "meaning": "We give you morning", "pronunciation": "yeh-mah-woh-ahkyeh"}
+            ],
+            "cultural_notes": "Ghanaians often repeat greetings multiple times as a sign of warmth. 'Maakye' can be said to multiple people as 'Maakye mo'."
+          },
+          {
+            "slug": "introducing-yourself",
+            "name": "Introducing Yourself",
+            "name_twi": "Wo Ho Nkyerɛkyerɛ",
+            "difficulty": "beginner",
+            "estimated_minutes": 15,
+            "vocabulary": [
+              {"word": "Me din de...", "meaning": "My name is...", "pronunciation": "meh-din-deh"},
+              {"word": "Mefiri...", "meaning": "I am from...", "pronunciation": "meh-fee-ree"},
+              {"word": "Meyɛ...", "meaning": "I am a... (profession)", "pronunciation": "meh-yeh"},
+              {"word": "Mewɔ...", "meaning": "I have...", "pronunciation": "meh-woh"},
+              {"word": "Me diɛn...", "meaning": "I am... years old", "pronunciation": "meh-dee-en"}
+            ],
+            "grammar_points": [
+              {
+                "point": "The 'Me' prefix",
+                "explanation": "In Twi, pronouns attach to verbs. 'Me' means 'I' and connects directly to the verb that follows."
+              }
+            ],
+            "cultural_notes": "Ghanaians value knowing where someone comes from. 'Mefiri he?' (Where are you from?) is a common question after learning someone's name."
+          },
+          {
+            "slug": "numbers-1-10",
+            "name": "Numbers 1-10",
+            "name_twi": "Nnɔmba 1-10",
+            "difficulty": "beginner",
+            "estimated_minutes": 12,
+            "vocabulary": [
+              {"word": "Baako", "meaning": "One", "pronunciation": "bah-KOH"},
+              {"word": "Mmienu", "meaning": "Two", "pronunciation": "mien-NOO"},
+              {"word": "Mmiɛnsa", "meaning": "Three", "pronunciation": "mien-SAH"},
+              {"word": "Nnɛ", "meaning": "Four", "pronunciation": "nehn"},
+              {"word": "Nnum", "meaning": "Five", "pronunciation": "noom"},
+              {"word": "Nsia", "meaning": "Six", "pronunciation": "en-SYAH"},
+              {"word": "Nson", "meaning": "Seven", "pronunciation": "n-SOHN"},
+              {"word": "Nwɔtwe", "meaning": "Eight", "pronunciation": "n-WOH-tweh"},
+              {"word": "Nkron", "meaning": "Nine", "pronunciation": "n-KROHN"},
+              {"word": "Du", "meaning": "Ten", "pronunciation": "doo"}
+            ],
+            "cultural_notes": "Numbers play important roles in naming ceremonies and market days. Some names like 'Kwasi' reference being born on Sunday."
+          },
+          {
+            "slug": "numbers-11-100",
+            "name": "Numbers 11-100",
+            "name_twi": "Nnɔmba 11-100",
+            "difficulty": "beginner",
+            "estimated_minutes": 15,
+            "vocabulary": [
+              {"word": "Dubaako", "meaning": "Eleven", "pronunciation": "doo-BAH-koh"},
+              {"word": "Dumienu", "meaning": "Twelve", "pronunciation": "doo-MIEN-noo"},
+              {"word": "Aduonu", "meaning": "Twenty", "pronunciation": "ah-DWOH-noo"},
+              {"word": "Aduasa", "meaning": "Thirty", "pronunciation": "ah-DWAH-sah"},
+              {"word": "Anan", "meaning": "Forty", "pronunciation": "ah-NAHN"},
+              {"word": "Anum", "meaning": "Fifty", "pronunciation": "ah-NOOM"},
+              {"word": "Nsia", "meaning": "Sixty", "pronunciation": "en-SYAH"},
+              {"word": "Nson", "meaning": "Seventy", "pronunciation": "n-SOHN"},
+              {"word": "Nwɔtwe", "meaning": "Eighty", "pronunciation": "n-WOH-tweh"},
+              {"word": "Nkron", "meaning": "Ninety", "pronunciation": "n-KROHN"},
+              {"word": "ɔha", "meaning": "Hundred", "pronunciation": "oh-HAH"}
+            ]
+          },
+          {
+            "slug": "days-of-week",
+            "name": "Days of the Week",
+            "name_twi": "Nnafua",
+            "difficulty": "beginner",
+            "estimated_minutes": 15,
+            "vocabulary": [
+              {"word": "Kwesida", "meaning": "Sunday", "pronunciation": "kweh-see-DAH"},
+              {"word": "Ɛdwoda", "meaning": "Monday", "pronunciation": "eh-JOH-dah"},
+              {"word": "Ɛbenada", "meaning": "Tuesday", "pronunciation": "eh-beh-NAH-dah"},
+              {"word": "Wukuada", "meaning": "Wednesday", "pronunciation": "woo-kwah-DAH"},
+              {"word": "Yawoada", "meaning": "Thursday", "pronunciation": "yah-waw-DAH"},
+              {"word": "Fida", "meaning": "Friday", "pronunciation": "fee-DAH"},
+              {"word": "Memeneda", "meaning": "Saturday", "pronunciation": "meh-meh-neh-DAH"}
+            ],
+            "cultural_notes": "Days of the week are sacred! Akan names often include the day you were born. Kwame = born Saturday, Kwasi = born Sunday, etc."
+          }
+        ]
+      },
+      {
+        "slug": "family",
+        "name": "Family & Relationships",
+        "name_twi": "Abusua",
+        "description": "Learn about family structures, the extended family system, and relationship terms",
+        "description_twi": "Sua abusua ho nsɛm,abusua a ɛtrɛw, ne ahyɛase",
+        "icon": "👨‍👩‍👧‍👦",
+        "lessons": [
+          {
+            "slug": "immediate-family",
+            "name": "Immediate Family",
+            "name_twi": "Abusua a ɛbɛn",
+            "difficulty": "beginner",
+            "estimated_minutes": 15,
+            "vocabulary": [
+              {"word": "Agya", "meaning": "Father", "pronunciation": "ah-JAH"},
+              {"word": "Maame", "meaning": "Mother", "pronunciation": "mah-MEH"},
+              {"word": "Nana", "meaning": "Grandparent", "pronunciation": "NAH-nah"},
+              {"word": "Nua barima", "meaning": "Brother", "pronunciation": "noo-ah bah-REE-mah"},
+              {"word": "Nua babaa", "meaning": "Sister", "pronunciation": "noo-ah bah-BAH"},
+              {"word": "Ba", "meaning": "Child", "pronunciation": "bah"},
+              {"word": "Abofra", "meaning": "Baby/Young child", "pronunciation": "ah-BOH-frah"},
+              {"word": "Kunu", "meaning": "Husband", "pronunciation": "KOO-noo"},
+              {"word": "Yere", "meaning": "Wife", "pronunciation": "YEH-reh"},
+              {"word": "Abusua", "meaning": "Family", "pronunciation": "ah-boo-SOO-ah"}
+            ],
+            "cultural_notes": "The Akan family system is matrilineal - lineage and inheritance pass through the mother's line. Your 'abusua' includes extended relatives on both sides."
+          },
+          {
+            "slug": "extended-family",
+            "name": "Extended Family",
+            "name_twi": "Abusua a ɛtrɛw",
+            "difficulty": "intermediate",
+            "estimated_minutes": 18,
+            "vocabulary": [
+              {"word": "Wɔfa", "meaning": "Maternal uncle", "pronunciation": "WOH-fah"},
+              {"word": "Wɔfaase", "meaning": "Nephew/Niece (sister's child)", "pronunciation": "woh-fah-SEH"},
+              {"word": "Sewaa", "meaning": "Maternal aunt", "pronunciation": "seh-WAH"},
+              {"word": "Akonta", "meaning": "Brother-in-law", "pronunciation": "ah-KOHN-tah"},
+              {"word": "Nanabaa", "meaning": "Paternal aunt", "pronunciation": "nah-nah-BAH"},
+              {"word": "Panyin", "meaning": "Elder", "pronunciation": "PAH-njin"},
+              {"word": "Kumaa", "meaning": "Younger sibling", "pronunciation": "koo-MAH"},
+              {"word": "Akyerɛkyerɛfo", "meaning": "Teacher/Guide", "pronunciation": "ah-cheh-cheh-FOH"}
+            ],
+            "cultural_notes": "In Akan culture, your mother's brother (Wɔfa) is considered very important. He has responsibilities in family decisions and may help raise his sister's children."
+          }
+        ]
+      },
+      {
+        "slug": "daily-life",
+        "name": "Daily Life",
+        "name_twi": "Nna mu Nneɛma",
+        "description": "Essential phrases for everyday situations",
+        "description_twi": "Nsɛm a wɔde yɛ adwuma daa",
+        "icon": "🌅",
+        "lessons": [
+          {
+            "slug": "morning-routine",
+            "name": "Morning Routine",
+            "name_twi": "Anɔpa Dwumadie",
+            "difficulty": "beginner",
+            "estimated_minutes": 12,
+            "vocabulary": [
+              {"word": "Anɔpa", "meaning": "Morning", "pronunciation": "ah-NOH-pah"},
+              {"word": "Nnaase", "meaning": "Wake up", "pronunciation": "n-nah-SEH"},
+              {"word": "Twitwa ho", "meaning": "Bathe", "pronunciation": "twee-twah-hoh"},
+              {"word": "Didie", "meaning": "Eating/Meal", "pronunciation": "dee-DYEH"},
+              {"word": "Bra", "meaning": "Come", "pronunciation": "brah"},
+              {"word": "Kɔ", "meaning": "Go", "pronunciation": "koh"},
+              {"word": "Adwuma", "meaning": "Work", "pronunciation": "ah-JOO-mah"}
+            ]
+          },
+          {
+            "slug": "time-expressions",
+            "name": "Time & Expressions",
+            "name_twi": "Bere ne Nsɛm",
+            "difficulty": "intermediate",
+            "estimated_minutes": 15,
+            "vocabulary": [
+              {"word": "Bere", "meaning": "Time", "pronunciation": "beh-REH"},
+              {"word": "Seisei", "meaning": "Now", "pronunciation": "seh-SEH"},
+              {"word": "Ankyɛ", "meaning": "Soon", "pronunciation": "ahn-CHEH"},
+              {"word": "Nnɛ", "meaning": "Today", "pronunciation": "neh-neh"},
+              {"word": "Ɔkyena", "meaning": "Tomorrow", "pronunciation": "oh-chen-AH"},
+              {"word": "Nna", "meaning": "Yesterday", "pronunciation": "n-nah"},
+              {"word": "Anadwo", "meaning": "Night", "pronunciation": "ah-nah-JOH"},
+              {"word": "Dɔn", "meaning": "O'clock", "pronunciation": "dohn"}
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "food",
+        "name": "Food & Dining",
+        "name_twi": "Bidiɛ",
+        "description": "Explore Ghanaian cuisine and dining customs",
+        "description_twi": "Sua Ghana bidiɛ ne bidiɛ amammɔ",
+        "icon": "🍲",
+        "lessons": [
+          {
+            "slug": "traditional-foods",
+            "name": "Traditional Foods",
+            "name_twi": "Bidiɛ Tete",
+            "difficulty": "beginner",
+            "estimated_minutes": 15,
+            "vocabulary": [
+              {"word": "Bidiɛ", "meaning": "Food", "pronunciation": "bid-YEH"},
+              {"word": "Fufu", "meaning": "Pounded cassava & plantains", "pronunciation": "foo-foo"},
+              {"word": "Banku", "meaning": "Fermented corn & cassava dough", "pronunciation": "bahn-KOO"},
+              {"word": "Ampesi", "meaning": "Boiled yam/plantain/cassava", "pronunciation": "ahm-PEH-see"},
+              {"word": "Jollof", "meaning": "Jollof rice", "pronunciation": "JOH-lohf"},
+              {"word": "Waakye", "meaning": "Rice & beans", "pronunciation": "WAH-cheh"},
+              {"word": "Kɔkɔɔ", "meaning": "Soup", "pronunciation": "koh-KOH-oh"},
+              {"word": "Nkwan", "meaning": "Palm nut soup", "pronunciation": "n-KWAHN"},
+              {"word": "Abenkwan", "meaning": "Palm nut soup", "pronunciation": "ah-ben-KWAHN"},
+              {"word": "Nsuo", "meaning": "Water", "pronunciation": "n-SOO-oh"}
+            ],
+            "cultural_notes": "Food in Ghana is communal! You say 'Kae me!' (Remember me!) when someone is eating and you want them to invite you. Always eat with your right hand."
+          },
+          {
+            "slug": "at-the-restaurant",
+            "name": "At the Restaurant",
+            "name_twi": "Aponto Adidiɛ",
+            "difficulty": "intermediate",
+            "estimated_minutes": 18,
+            "vocabulary": [
+              {"word": "Pɛ me bidiɛ", "meaning": "I want food", "pronunciation": "peh-meh-bid-YEH"},
+              {"word": "Ɔyɛ den?", "meaning": "How much is it?", "pronunciation": "oh-yeh-dehn"},
+              {"word": "Me daa wo ase", "meaning": "Thank you", "pronunciation": "meh-dah-woh-ah-SEH"},
+              {"word": "Kɔso", "meaning": "Continue/Go ahead", "pronunciation": "koh-SOH"},
+              {"word": "Bɛma me nsuo", "meaning": "Give me water", "pronunciation": "beh-mah-meh-n-SOO-oh"},
+              {"word": "Ɔdɔ", "meaning": "Delicious/Sweet", "pronunciation": "oh-DOH"},
+              {"word": "M'akoma ase", "meaning": "I'm satisfied", "pronunciation": "mah-koh-mah-ah-SEH"}
+            ],
+            "cultural_notes": "When someone serves you food, you say 'Me daa wo ase' (I thank you). After eating, you might say 'M'akoma ase' (My heart is satisfied)."
+          }
+        ]
+      },
+      {
+        "slug": "travel",
+        "name": "Travel & Directions",
+        "name_twi": "Nkran ne Kwan",
+        "description": "Navigate Ghana with confidence",
+        "description_twi": "Faa kwan fɛfɛɛfɛ",
+        "icon": "🚕",
+        "lessons": [
+          {
+            "slug": "transportation",
+            "name": "Transportation",
+            "name_twi": "Adeɛkyeɛ",
+            "difficulty": "intermediate",
+            "estimated_minutes": 15,
+            "vocabulary": [
+              {"word": "Kwan", "meaning": "Road/Way", "pronunciation": "kwahn"},
+              {"word": "Bɔso", "meaning": "Bus stop", "pronunciation": "boh-SOH"},
+              {"word": "Tro tro", "meaning": "Minibus/shared taxi", "pronunciation": "troh-troh"},
+              {"word": "Bɛsi", "meaning": "Stop", "pronunciation": "beh-SEE"},
+              {"word": "Kɔfa me", "meaning": "Take me", "pronunciation": "koh-fah-meh"},
+              {"word": "Ɔhe na ɔwɔ...?", "meaning": "Where is...?", "pronunciation": "oh-heh-nah-oh-woh"},
+              {"word": "Nifa", "meaning": "Right", "pronunciation": "nee-FAH"},
+              {"word": "Bɛnmu", "meaning": "Left", "pronunciation": "ben-MOO"},
+              {"word": "Anim", "meaning": "Front/Ahead", "pronunciation": "ah-NEEM"},
+              {"word": "Akyi", "meaning": "Back/Behind", "pronunciation": "ah-CHEE"}
+            ]
+          },
+          {
+            "slug": "places",
+            "name": "Places & Locations",
+            "name_twi": "Beɛɛ",
+            "difficulty": "beginner",
+            "estimated_minutes": 12,
+            "vocabulary": [
+              {"word": "Kurom", "meaning": "Town", "pronunciation": "koo-ROM"},
+              {"word": "Aduruyɛbea", "meaning": "Hospital/Clinic", "pronunciation": "ah-doo-roo-yeh-BEH-ah"},
+              {"word": "Ndua bea", "meaning": "Market", "pronunciation": "n-doo-ah-BEH-ah"},
+              {"word": "Aponto", "meaning": "Restaurant", "pronunciation": "ah-POHN-toh"},
+              {"word": "Ahyiaebea", "meaning": "Meeting place/Church", "pronunciation": "ah-cheh-yeh-BEH-ah"},
+              {"word": "Dan", "meaning": "House", "pronunciation": "dahn"},
+              {"word": "Kurase", "meaning": "Village", "pronunciation": "koo-rah-SEH"}
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "culture",
+        "name": "Culture & Proverbs",
+        "name_twi": "Amammɔ ne Abe",
+        "description": "Deep cultural wisdom through proverbs and customs",
+        "description_twi": "Nyansa a ɛwɔ amammɔ mu",
+        "icon": "🎭",
+        "lessons": [
+          {
+            "slug": "famous-proverbs",
+            "name": "Famous Proverbs",
+            "name_twi": "Abe a wɔnim",
+            "difficulty": "advanced",
+            "estimated_minutes": 20,
+            "vocabulary": [
+              {"word": "Abe", "meaning": "Proverb", "pronunciation": "ah-BEH"},
+              {"word": "Nyansa", "meaning": "Wisdom", "pronunciation": "n-YAHN-sah"},
+              {"word": "Anidaso", "meaning": "Hope", "pronunciation": "ah-nee-dah-SOH"},
+              {"word": "Ahooden", "meaning": "Strength", "pronunciation": "ah-hoh-DEHN"}
+            ],
+            "content": {
+              "proverbs": [
+                {
+                  "twi": "Obi nkyere abofra nyansa. Obi kyere abofra nyansa.",
+                  "english": "No one teaches a child wisdom. Someone teaches a child wisdom.",
+                  "meaning": "Wisdom is learned through life experience, not just instruction."
+                },
+                {
+                  "twi": "Abofra bo nwa na n'omma ntoa mu.",
+                  "english": "A child breaks a snail, not a tortoise.",
+                  "meaning": "Children should take on tasks appropriate to their strength."
+                },
+                {
+                  "twi": "Ɔsɛn barima te sɛ kɔntɔmmɛ.",
+                  "english": "A man's word is like an egg.",
+                  "meaning": "Handle promises and words with care - they can break."
+                },
+                {
+                  "twi": "Nsa da ɔkwan so na nea ɔbɛtwa no bɛtwa.",
+                  "english": "The hand is on the path, and the one who will cut it will cut it.",
+                  "meaning": "What will be, will be."
+                }
+              ]
+            }
+          },
+          {
+            "slug": "customs-traditions",
+            "name": "Customs & Traditions",
+            "name_twi": "Amammɔ",
+            "difficulty": "intermediate",
+            "estimated_minutes": 20,
+            "vocabulary": [
+              {"word": "Adae", "meaning": "Traditional celebration", "pronunciation": "ah-dah-EH"},
+              {"word": "Akwasidae", "meaning": "Sunday (Akan celebration day)", "pronunciation": "ah-kwah-see-DAH-EH"},
+              {"word": "Odwira", "meaning": "Yam festival", "pronunciation": "oh-DWEE-rah"},
+              {"word": "Ahenfie", "meaning": "Palace", "pronunciation": "ah-hen-fyeh"},
+              {"word": "Odumankoma", "meaning": "Creator (spiritual)", "pronunciation": "oh-doo-mahn-KOH-mah"},
+              {"word": "Nsamanpɔw", "meaning": "Ancestors", "pronunciation": "n-sah-mahn-POH"}
+            ],
+            "cultural_notes": "The Akan people believe in respecting ancestors (Nsamanpɔw). Pouring libation before drinking is a way to honor them."
+          }
+        ]
+      },
+      {
+        "slug": "conversation",
+        "name": "Conversational Twi",
+        "name_twi": "Twi a Yɛka",
+        "description": "Put it all together with real conversations",
+        "description_twi": "Ka Twi wɔ nna mu",
+        "icon": "💬",
+        "lessons": [
+          {
+            "slug": "small-talk",
+            "name": "Small Talk",
+            "name_twi": "Nkasaeɛ Kakra",
+            "difficulty": "intermediate",
+            "estimated_minutes": 15,
+            "vocabulary": [
+              {"word": "Ɛte sɛn?", "meaning": "How is it? (How are things?)", "pronunciation": "eh-teh-sen"},
+              {"word": "Ɛyɛ", "meaning": "It is good", "pronunciation": "eh-yeh"},
+              {"word": "Ɔhaw bɛn na ɛwɔ wo?", "meaning": "What problems do you have?", "pronunciation": "oh-hah-ben"},
+              {"word": "Onni hwee", "meaning": "There is nothing (no problem)", "pronunciation": "oh-nee-hweh"},
+              {"word": "Me pɛ sɛ me kɔ...", "meaning": "I want to go...", "pronunciation": "meh-peh-seh"},
+              {"word": "Sɛnea ɛte", "meaning": "As it is (how things are)", "pronunciation": "seh-neh-ah-eh-teh"}
+            ]
+          },
+          {
+            "slug": "asking-questions",
+            "name": "Asking Questions",
+            "name_twi": "Ɔbibisa",
+            "difficulty": "intermediate",
+            "estimated_minutes": 18,
+            "vocabulary": [
+              {"word": "Dɛn?", "meaning": "What?", "pronunciation": "dehn"},
+              {"word": "Hwan?", "meaning": "Who?", "pronunciation": "hwahn"},
+              {"word": "Ɔhe?", "meaning": "Where?", "pronunciation": "oh-heh"},
+              {"word": "Bɛren?", "meaning": "When?", "pronunciation": "beh-ren"},
+              {"word": "Ɔyɛ den?", "meaning": "How?", "pronunciation": "oh-yeh-dehn"},
+              {"word": "Adɛn?", "meaning": "Why?", "pronunciation": "ah-dehn"},
+              {"word": "Dɛn nti?", "meaning": "What for? (Why?)", "pronunciation": "dehn-tee"}
+            ],
+            "grammar_points": [
+              {
+                "point": "Question intonation",
+                "explanation": "In Twi, questions often have a rising intonation at the end, similar to English. The question word usually comes first or after the subject."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "achievements": [
+      {
+        "slug": "first-steps",
+        "name": "First Steps",
+        "name_twi": "Anammɔn a ɛdi ɛkan",
+        "description": "Complete your first lesson",
+        "points": 10
+      },
+      {
+        "slug": "voice-pioneer",
+        "name": "Voice Pioneer",
+        "name_twi": "Nteɛma a ɔdi kan",
+        "description": "Send your first voice message",
+        "points": 15
+      },
+      {
+        "slug": "week-warrior",
+        "name": "Week Warrior",
+        "name_twi": "Nsaaku a ɔko daa",
+        "description": "Maintain a 7-day streak",
+        "points": 50
+      },
+      {
+        "slug": "greeting-master",
+        "name": "Greeting Master",
+        "name_twi": "Mpaebɔni Panyin",
+        "description": "Master all greeting lessons",
+        "points": 25
+      },
+      {
+        "slug": "family-sage",
+        "name": "Family Sage",
+        "name_twi": "Abusuani Panyin",
+        "description": "Complete all family lessons",
+        "points": 30
+      },
+      {
+        "slug": "food-connoisseur",
+        "name": "Food Connoisseur",
+        "name_twi": "Bidiɛni a onim adeɛ",
+        "description": "Complete all food & dining lessons",
+        "points": 30
+      },
+      {
+        "slug": "culture-bearer",
+        "name": "Culture Bearer",
+        "name_twi": "Amammɔni Panyin",
+        "description": "Complete all culture lessons",
+        "points": 50
+      },
+      {
+        "slug": "conversationalist",
+        "name": "Conversationalist",
+        "name_twi": "Ɔkasafoɔ",
+        "description": "Have 50 conversation exchanges",
+        "points": 40
+      }
+    ]
+  }
+}
