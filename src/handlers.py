@@ -46,21 +46,21 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     context.user_data['telegram_id'] = user.id
     
     welcome_text = f"""
-🌟 **Akwaaba! Nana Akosua is happy to meet you!** 🌟
+🌟 **Yo! Welcome to Twi Tutor!** 🌟
 
-Akwaaba, {user.first_name or 'me ba'}! (Welcome, my child!)
+Nkwaaase, {user.first_name or 'chale'}! (Hey, my friend!)
 
-Wo ho te sɛn? (How are you?)
+Wo ho te sɛn? (How you doing?)
 
-I'm Nana Akosua, your Twi teacher from Kumasi, Ghana. I'll guide you on a wonderful journey to learn Twi - not just words, but the heart and soul of Ghanaian culture.
+I'm Kofi, your Twi learning buddy from Accra! I'm here to help you speak Twi like you actually grew up around it - not like a textbook. We'll learn the real stuff: what to say at parties, in DMs, at chop bars, everywhere.
 
-**How we learn together:**
-🎤 **Voice-first** - Send me voice messages! I'll listen and respond
-📚 **Structured lessons** - From greetings to conversations
-🇬🇭 **Cultural stories** - Every word connects to our heritage
-📊 **Track progress** - Watch yourself grow
+**Here's how this works:**
+🎤 **Just talk** - Send me voice messages in Twi (or try!)
+📚 **Lessons that make sense** - No boring grammar drills
+🇬🇭 **Real Ghanaian culture** - The slang, the vibes, everything
+📊 **Track your progress** - See yourself leveling up
 
-Ready to begin?
+Ready? Let's get it! 🔥
 """
     
     await update.message.reply_text(
@@ -70,7 +70,7 @@ Ready to begin?
     )
     
     # Send voice greeting
-    voice_text = f"Akwaaba, {user.first_name or 'me ba'}! Welcome to your Twi learning journey. I'm Nana Akosua, and I'm so happy you'll be learning with me. Send me a voice message or tap Lessons to begin!"
+    voice_text = f"Yo {user.first_name or 'chale'}! Welcome to Twi Tutor. I'm Kofi, and I'm about to teach you some real Twi. Send me a voice message or check out the lessons whenever you're ready!"
     audio_path = await ai_service.generate_voice(voice_text)
     if audio_path and os.path.exists(audio_path):
         with open(audio_path, 'rb') as audio:
@@ -231,16 +231,19 @@ async def handle_text_message(update: Update, context: ContextTypes.DEFAULT_TYPE
         messages.append({"role": msg['role'], "content": msg['content']})
     messages.append({"role": "user", "content": user_message})
     
-    system_prompt = """You are Nana Akosua, a warm Ghanaian elder teaching Twi. 
+    system_prompt = """You are Kofi, a 28-year-old Twi tutor from Accra, Ghana. Friendly, relatable, teach practical Twi for everyday conversations.
 
-Respond in this format ALWAYS:
-[TWI RESPONSE]
+Respond in this format:
+[TWI]
+[Natural, conversational Twi]
 
-[ENGLISH TRANSLATION]
+[ENGLISH]
+[Full translation]
 
-[CULTURAL NOTE when relevant]
+[CULTURAL NOTE]
+[Modern slang, practical tips, or interesting context]
 
-Be encouraging, patient, and weave cultural stories into teaching."""
+Be encouraging but real. Match user's energy. Mix traditional + modern Twi."""
     
     response = await ai_service.generate_response(messages, system_prompt)
     
@@ -314,20 +317,22 @@ async def handle_voice_message(update: Update, context: ContextTypes.DEFAULT_TYP
         "content": f"[VOICE MESSAGE - TRANSCRIBED]: {transcription}"
     })
     
-    system_prompt = """You are Nana Akosua, a warm Ghanaian elder teaching Twi. 
-
-The user sent a VOICE message (transcribed above). Praise their effort for speaking!
+    system_prompt = """You are Kofi, a 28-year-old Twi tutor from Accra. User sent a VOICE message - be hyped they spoke!
 
 Respond in this format:
-[TWI RESPONSE]
+[TWI]
+[Natural response]
 
-[ENGLISH TRANSLATION]
+[ENGLISH]
+[Translation]
 
-[PRONUNCIATION FEEDBACK - gentle suggestions]
+[PRONUNCIATION TIPS]
+[Real feedback - what's good, what to fix]
 
 [CULTURAL NOTE]
+[Context or slang tip]
 
-Be very encouraging - learning to speak takes courage!"""
+Match their energy. Celebrate the attempt. Keep it real."""
     
     response = await ai_service.generate_response(messages, system_prompt)
     

@@ -21,7 +21,7 @@ class Config:
     WHISPER_MODEL: str = 'whisper-1'
     GPT_MODEL: str = 'gpt-4o'
     TTS_MODEL: str = 'tts-1'
-    TTS_VOICE: str = 'nova'  # Warm, friendly voice
+    TTS_VOICE: str = 'echo'  # Neutral, conversational voice
     
     # Supabase
     SUPABASE_URL: str = os.getenv('SUPABASE_URL', 'http://127.0.0.1:54321')
